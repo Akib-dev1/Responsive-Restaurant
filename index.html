@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Palace</title>
+    <link rel="shortcut icon" type="x-icon" href="download.png">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+        *{
+            font-family: "Josefin Sans", sans-serif;
+        }
+        .welcome{
+          font-family: "Nothing You Could Do", cursive;
+        }
+    </style>
+</head>
+<body>
+  <div class="bg-[#111111]">
+    
+    <!-- Navbar Start -->
+    <nav class="border-gray-200 bg-transparent w-full fixed backdrop-blur-sm h-20">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="download.png" class="w-28" alt="Grand Palace Logo" />
+        </a>
+        <div class="flex items-center">
+        <button class="bg-transparent border-2 border-white px-5 py-2 hover:bg-[#cfa670] rounded mr-2 text-white">Reservation</button>
+        <button data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-white rounded-lg focus:outline-none" aria-controls="navbar-hamburger" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+        </div>
+        <div class="hidden w-full" id="navbar-hamburger">
+          <ul class="flex flex-col font-medium mt-.5 rounded-lg bg-slate-200">
+            <li>
+              <a href="#" class="block py-2 px-3 text-black border-b-2 border-slate-400" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-black border-b-2 border-slate-400">Menus</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-black border-b-2 border-slate-400">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 text-black">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+<!--Navbar End  -->
+<!-- 1st Page -->
+  <div class="h-full px-6 md:px-8 lg:px-14 flex items-center justify-end pt-16">
+      <div class="bg-cover">
+        <img src="https://shahidining.com.au/wp-content/uploads/2020/05/5.png" alt="Butter Chicken">
+      </div>
+      <div>
+          <div class="flex gap-[2vh] max-md:-translate-x-32 max-md:translate-y-4 md:translate-y-8 md:-translate-x-10 lg:translate-y-24 lg:-translate-x-20">
+            <h1 class="welcome text-3xl lg:text-5xl text-[#cfa670]">Welcome</h1>
+            <h1 class="welcome text-3xl lg:text-5xl text-[#cfa670]">To</h1>
+          </div>
+          <h1 class="text-white font-semibold text-5xl lg:text-7xl md:translate-y-8 md:-translate-x-14 lg:-translate-x-28 lg:translate-y-24 tracking-wider max-md:-translate-x-36 max-md:translate-y-4">GRAND</h1>
+          <h1 class="text-white font-semibold text-5xl lg:text-7xl md:translate-y-8 md:-translate-x-14 lg:-translate-x-28 lg:translate-y-24 max-md:-translate-x-36 max-md:translate-y-4">PALACE</h1>
+          <p class="text-white font-medium text-xs lg:text-base md:translate-y-8 md:-translate-x-14 lg:-translate-x-28 lg:translate-y-24 max-md:-translate-x-36 max-md:translate-y-4">Book Online Or Call 01985-326982</p>
+      </div>
+  </div>
+<!--1st Page End  -->
+<!-- 2nd Page -->
+  <div class="h-full mt-10 px-6 md:px-12 lg:px-64">
+      <h1 class="welcome text-center text-2xl md:text-4xl text-[#cfa670]">Discover</h1>
+      <h1 class="text-center text-4xl md:text-6xl font-medium text-white mt-1.5">OUR STORY</h1>
+      <div class="flex justify-center mt-4">
+        <img src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo7/wp-content/uploads/sites/7/2021/01/noun_leaf_3120327_white.png" alt="leaf" class="w-5 brightness-50">
+      </div>
+      <p class="text-xl md:text-2xl my-16 text-white font-bold leading-8">“Cooking is like fashion. Always, I like to try to change. If I’m traveling in a different country – to Australia, the Bahamas, Budapest, Moscow – and I see a new ingredient, I like to try it in a new dish”</p>
+      <p  class="text-white font-bold leading-8 mb-4">Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest in do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar jean vinegar stumptown yr pop-up artisan sunt. Craft beer elit seitan exercitation, photo booth</p>
+      <p class="text-white font-bold leading-8 mb-16">Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse</p>
+  </div>
+<!-- Page 2 End -->
+<!-- Page 3 -->
+  <div class="px-8 md:px-12 lg:px-24 flex justify-between pb-32 h-full flex-wrap">
+    <div>
+      <div class="md:w-80 md:h-96 lg:mb-8 md:mb-0 mb-4 overflow-hidden">
+        <img src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo7/wp-content/uploads/sites/7/2017/08/nick-karvounis-72018-660x740.jpg" alt="John Bennett" class="rounded hover:scale-110 transition object-cover duration-500">
+      </div>
+      <p class="text-base text-[#b8b8b8] mb-2">French Chef</p>
+      <p class="text-xl text-white font-bold">John Bennett</p>
+    </div>
+    <div>
+      <div class="md:w-80 md:h-96 lg:mb-8 md:mb-0 mb-4 overflow-hidden md:mt-0 mt-4">
+        <img src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo7/wp-content/uploads/sites/7/2017/08/9b9a3da88da9a7068d5810faf8d9d61c-660x740.jpg" alt="Benjamin Doe" class="rounded hover:scale-110 transition object-cover duration-500">
+      </div>
+      <p class="text-base text-[#b8b8b8] mb-2">Italian Chef</p>
+      <p class="text-xl text-white font-bold">Benjamin Doe</p>
+    </div>
+    <div class="md:mt-12 lg:mt-0 mt-4">
+      <div class="md:w-80 md:h-96 lg:mb-8 md:mb-0 mb-4 overflow-hidden">
+        <img src="https://grandrestaurantv6.b-cdn.net/grandrestaurantv6/demo7/wp-content/uploads/sites/7/2017/08/image-660x740.jpg" alt="" class="rounded hover:scale-110 transition object-cover duration-500">
+      </div>
+      <p class="text-base text-[#b8b8b8] mb-2">FOOD STYLISH EXPERT</p>
+      <p class="text-xl text-white font-bold">Frank Rose</p>
+    </div>
+  </div>
+<!--Page 3 End  -->
+<!-- Parallax -->
+<div class="h-64 md:h-96 bg-cover mb-32 bg-fixed py-36" style="background-image: url(/Restaurent/Parallax.jpg);">
+<div class="flex justify-center">
+  <button class="border-2 rounded border-white text-white px-5 py-2 md:text-lg active:text-black active:bg-white">Make an Online Reservation</button>
+</div>
+<p class="text-center text-white mt-4 md:text-lg font-semibold">Or Call +8801985-326982</p>
+</div>
+<!--Parallax End  -->
+<!-- Page 4 -->
+<div class="md:flex md:justify-between pl-8 md:pl-4 md:pr-12 lg:pl-20 lg:pr-56 h-full">
+<div class="max-md:flex max-md:justify-center">
+  <div class="w-32">
+    <img src="download.png" alt="logo">
+  </div>
+</div>
+<div class="mt-7">
+  <p class="text-white mb-4">Location</p>
+  <p class="text-[#b8b8b8]">60 Feet Chapramoshjid</p>
+  <p class="text-[#b8b8b8]">Mirpur 1, Dhaka-1216</p>
+  <p class="text-[#b8b8b8]">Bangladesh</p>
+</div>
+<div class="mt-7">
+  <p class="text-white mb-4">RESERVATION</p>
+  <p class="text-white">+8801985-326982</p>
+  <p class="text-white cursor-pointer">Make a Reservation</p>
+</div>
+<div class="mt-7">
+  <p class="text-white mb-4">OPENNING HOURS</p>
+  <p class="text-[#b8b8b8]">Mon – Fri 11:30am – 8pm</p>
+  <p class="text-[#b8b8b8]">Sat – Sun 11:30am – 9pm</p>
+</div>
+</div>
+<!-- Page 4 End -->
+<!-- Footer -->
+<footer>
+<div class="h-full py-24 px-8">
+  <div class="text-white space-x-2 text-center mb-5">
+    <i class="fa-brands fa-facebook cursor-pointer"></i>
+    <i class="fa-brands fa-twitter cursor-pointer"></i>
+    <i class="fa-brands fa-instagram cursor-pointer"></i>
+  </div>
+  <p class="text-white text-center">© Copyright Grand Palace - Theme by Akib</p>
+</div>
+</footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+</body>
+</html>
